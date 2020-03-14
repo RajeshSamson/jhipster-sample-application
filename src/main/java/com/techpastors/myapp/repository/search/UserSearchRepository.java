@@ -1,0 +1,9 @@
+package com.techpastors.myapp.repository.search;
+
+import com.techpastors.myapp.domain.User;
+import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
+
+/**
+ * Spring Data Elasticsearch repository for the User entity.
+ */
+public interface UserSearchRepository extends ElasticsearchRepository<User, String> {}
